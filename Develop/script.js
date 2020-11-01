@@ -16,12 +16,12 @@ function writePassword() {
 }
 
 function generatePassword() {
-  userPassword = " ";
-  pwChars = " ";
+  userPassword = "";
+  pwChars = "";
 
-    // requst length of password
+    // request length of password
     let pwLength = prompt(
-      "Please select a password length between 8 and 120 characters."
+      "Please select a password length between 8 and 128 characters."
     );
 
     if (pwLength >= 8 && pwLength <= 128) {
@@ -51,7 +51,7 @@ function generatePassword() {
     if (specialChar === true) {
       pwChars += chars;
     } else {
-      alert("ERROR!")
+      alert("ERROR! Cannot generate password!")
     }
 
     for (var i = 0; i < pwLength; i++) {
