@@ -16,3 +16,5 @@ When selecting yes or no for the above criteria, a random password will be gener
 
 [Password-Generator](https://jennyking0805.github.io/password-generator)
 
+![](assets/images/password-generator.png)
+
